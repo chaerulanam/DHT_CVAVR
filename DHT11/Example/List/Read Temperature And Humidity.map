@@ -1,0 +1,50 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+buff                                                                              0x019A      50
+_seed                                                                             0x01CC       4
+input                                                                             0x01D0       1
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+temperature                                                                       R5           1
+humidity                                                                          R4           1
+_addr                                                                             R7           1
+_displayfunction                                                                  R6           1
+_displaycontrol                                                                   R9           1
+_displaymode                                                                      R8           1
+_cols                                                                             R11          1
+_rows                                                                             R10          1
+_charsize                                                                         R13          1
+_backlightval                                                                     R12          1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x000A0     99
+lcd_begin                                                                         0x00103     61
+lcd_clear                                                                         0x00140      2
+lcd_home                                                                          0x00142      7
+lcd_gotoxy                                                                        0x00149     38
+lcd_display                                                                       0x0016F      7
+lcd_command                                                                       0x00176      7
+lcd_write                                                                         0x0017D      8
+lcd_print                                                                         0x00185     15
+send                                                                              0x00194     20
+write4bits                                                                        0x001A8      7
+expanderWrite                                                                     0x001AF     17
+pulseEnable                                                                       0x001C0     18
+memset                                                                            0x001D2     16
+dht_getdata                                                                       0x001E2    140
+dht_gettemperaturehumidity                                                        0x0026E     11
+itoa                                                                              0x00279     46
+wire_begin                                                                        0x002A7      5
+wire_send_start                                                                   0x002AC      7
+wire_send_stop                                                                    0x002B3      3
+wire_send_add_rw                                                                  0x002B6     19
+wire_send_byte                                                                    0x002C9     11

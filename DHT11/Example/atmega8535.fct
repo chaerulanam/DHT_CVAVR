@@ -1,0 +1,4 @@
+main DSTACK_USAGE:0 DSTACK_LEVEL:0 FILE:"atmega8535.c" LINE:34
+dht_gettemperaturehumidity DSTACK_USAGE:4 DSTACK_LEVEL:4 FILE:"C:\cvavr\lib\dht_master.lib" LINE:141
+dht_getdata DSTACK_USAGE:14 DSTACK_LEVEL:18 FILE:"C:\cvavr\lib\dht_master.lib" LINE:21
+memset DSTACK_USAGE:5 DSTACK_LEVEL:23 FILE:"C:\cvavr\lib\string.lib" LINE:661
